@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "113295200935",
+    "project_id": "revision-8755a",
+    "storage_bucket": "revision-8755a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113295200935:android:5d200593efada687aac182",
+        "android_client_info": {
+          "package_name": "com.codersarena.revision"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoI8FFtsBjbsxX46MUCeUNS_XieCwByKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

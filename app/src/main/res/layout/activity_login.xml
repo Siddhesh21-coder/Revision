@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+>
+    <data>
+        <variable
+            name="vModel"
+            type="com.codersarena.revision.viewmodel.MyViewModel" />
+    </data>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F3F0EA"
+        tools:context=".views.LoginActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="31dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="24sp"
+                    android:layout_height="34sp"
+                    android:src="@drawable/logo" />
+
+                <TextView
+                    android:id="@+id/textAppName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="@string/company"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Account"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:layout_marginTop="68dp"
+                android:layout_marginLeft="24dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign In to your account"
+                android:textSize="38sp"
+                android:textStyle="bold"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="24dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter your credentials to continue"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="24dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter email"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="34dp"
+                android:layout_marginLeft="24dp"
+                />
+            <AutoCompleteTextView
+                android:id="@+id/emailEt"
+                android:layout_marginTop="3dp"
+                android:textSize="19dp"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:paddingVertical="3dp"
+
+                android:hint="Enter your email address"
+                android:layout_marginHorizontal="24sp"
+                android:background="@drawable/shape"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter password"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="24dp"
+                />
+
+            <EditText
+                android:id="@+id/passwordEt"
+                android:layout_marginTop="3dp"
+                android:textSize="19dp"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:paddingVertical="3dp"
+                android:password="true"
+                android:hint="Enter your password"
+                android:layout_marginHorizontal="24sp"
+                android:background="@drawable/shape"
+                />
+
+            <Button
+                android:id="@+id/submitBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="#F8E32F"
+                />
+
+            <Button
+                android:id="@+id/createBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create Account"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="#F8E32F"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
